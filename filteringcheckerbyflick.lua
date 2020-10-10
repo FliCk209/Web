@@ -53,6 +53,9 @@ Close.Text = "X"
 Close.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close.TextSize = 30.000
 Close.TextWrapped = true
+Close.MouseButton1Click:Connect(Function()
+Gui:Destroy()
+end)
 
 UICorner_2.CornerRadius = UDim.new(0.5, 0)
 UICorner_2.Parent = Close
